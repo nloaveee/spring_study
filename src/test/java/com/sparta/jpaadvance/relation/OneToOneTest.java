@@ -34,7 +34,7 @@ public class OneToOneTest {
         Food food = new Food();
         food.setName("후라이드 치킨");
         food.setPrice(15000);
-        food.setUser(user); // 외래 키(연관 관계) 설정
+        //food.setUser(user); // 외래 키(연관 관계) 설정
 
         userRepository.save(user);
         foodRepository.save(food);
@@ -87,7 +87,7 @@ public class OneToOneTest {
         Food food = new Food();
         food.setName("고구마 피자");
         food.setPrice(30000);
-        food.setUser(user); // 외래 키(연관 관계) 설정
+        //food.setUser(user); // 외래 키(연관 관계) 설정
 
         userRepository.save(user);
         foodRepository.save(food);
